@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Trivia Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<!-- this will appear on the page -->
+<body>
+    <div class="container">
+        <h1>Chemistry Trivia</h1>
+        <h3>Instructions</h3>
+        <p>You have 25 seconds to answer five questions.</p>
+        <div class="jumbotron">
+            <div id="q1">The law of conservation of matter states that matter is neither created or destroyed.</div>
+                True:
+                <input type="radio" name="q1" value="t"> 
+                False: 
+                <input type="radio" name="q1" value="f"> 
+               
+            <p id="q2">Chemical reactions are always reversible.</p>
+            True:
+            <input type="radio" name="q2" value="t"> 
+            False: 
+            <input type="radio" name="q2" value="f"> 
+
+            <p id="q3">Le Chatelier's Principle deals with chemical equilibrium.</p>
+                True:
+                <input type="radio" name="q3" value="t"> 
+                False: 
+                <input type="radio" name="q3" value="f"> 
+
+            <p id="q4">All organic compounds contain carbon.</p>
+                True:
+                <input type="radio" name="q4" value="t"> 
+                False: 
+                <input type="radio" name="q4" value="f"> 
+
+            <p id="q5">Miscible liquids don't mix.</p>
+                True:
+                <input type="radio" name="q5" value="t"> 
+                False: 
+                <input type="radio" name="q5" value="f"> 
+        </div> 
+       <br>
+
+        <div class="w/l">
+            <div>Wins</div>
+            <div>Losses</div>
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
