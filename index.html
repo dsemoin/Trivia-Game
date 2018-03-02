@@ -6,37 +6,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </head>
 <!-- this will appear on the page -->
 <body>
+         
     <div class="container">
         <h1>Chemistry Trivia</h1>
         <h3>Instructions</h3>
-        <p>You have 25 seconds to answer five questions.</p>
+        <p>You have 20 seconds to answer five questions.</p>
         <div class="jumbotron">
-            <div id="q1">The law of conservation of matter states that matter is neither created or destroyed.</div>
+            <button id="timer">Timer</button>
+            <h3 id='seconds'></h3>
+            <p id="q1">The law of conservation of matter states that matter is neither created or destroyed.</p>
                 True:
                 <input type="radio" name="q1" value="t"> 
                 False: 
-                <input type="radio" name="q1" value="f"> 
+                <input type="radio" name="q1" value="f"> <br> <br>
                
             <p id="q2">Chemical reactions are always reversible.</p>
             True:
             <input type="radio" name="q2" value="t"> 
             False: 
-            <input type="radio" name="q2" value="f"> 
-
+            <input type="radio" name="q2" value="f">  <br> <br>
+           
             <p id="q3">Le Chatelier's Principle deals with chemical equilibrium.</p>
                 True:
                 <input type="radio" name="q3" value="t"> 
                 False: 
-                <input type="radio" name="q3" value="f"> 
-
+                <input type="radio" name="q3" value="f"> <br> <br>
+           
             <p id="q4">All organic compounds contain carbon.</p>
                 True:
                 <input type="radio" name="q4" value="t"> 
                 False: 
-                <input type="radio" name="q4" value="f"> 
+                <input type="radio" name="q4" value="f"> <br> <br>
 
             <p id="q5">Miscible liquids don't mix.</p>
                 True:
@@ -45,13 +49,10 @@
                 <input type="radio" name="q5" value="f"> 
         </div> 
        <br>
+        <button id="submitButton">Submit</button>
 
-        <div class="w/l">
-            <div>Wins</div>
-            <div>Losses</div>
-        </div>
     </div>
-    <script src="assets/javascript/app.js"></script>
+    
     
 </body>
 </html>

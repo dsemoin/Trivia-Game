@@ -1,9 +1,28 @@
 
 body {
-    background-image: url("../images/h20.png");
-    background-size: cover;
+    background: url("../images/chemistry 2.jpg") no-repeat center;
+   
 }
+h1{
+    text-align: center;
+    background-color: white;
+    margin-top:20px;
+    border: solid black;
 
+}
+h3{
+    
+    text-align: center;
+    font-size: 30px; 
+}
+p {
+    background-color: rgb(123, 197, 247);
+    text-align: center;
+    font-size: 16px;
+}
+button {
+    float: center;
+}
 
 
 
@@ -17,4 +36,4 @@ body {
 @media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {}   
